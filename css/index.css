@@ -1,0 +1,89 @@
+@import url('https://fonts.google.com/specimen/Alata?family=Alata:400');
+@import url('https://fonts.google.com/specimen/Josefin+Sans:300');
+
+body{
+    Font-size: 15px;
+}
+
+.main {
+    margin: 0px 20px 100px 100px;
+}
+
+.bg-img{
+    background-image: url("../images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 650px;
+    position: relative;
+}
+
+.brand {
+    float: left;
+    width: auto;
+    font-size: 50px;
+    padding:40px;
+    color:white;
+}
+
+.topnav {
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    padding:40px;
+    color: white;
+}
+
+.topnav a{
+    color: white;
+    text-decoration: none;
+}
+
+.visual{
+    background-image: url(../images/desktop/image-interactive.jpg);
+    margin: 7em;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 731px;
+    height: 500px;
+}
+
+.visual-text {
+    width: 525px;
+    height: auto;
+    background: white;
+    position: relative;
+    top: 37%;
+    left: 80%;
+    padding-top: 114px;
+    padding-left: 133px;
+}
+
+.creation { 
+    width: 1440px;
+    height: 74px;
+    margin-bottom: 55px;
+}
+
+.creation button {
+    float: right;
+    width: 152px;
+    height: 35px;
+    margin-top: 27px;
+    background-color: white;
+}
+
+.flex-container {
+    width:1440px;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.flex-container img {
+    margin-bottom: 10px;
+    flex-basis: 24%;
+}
+
