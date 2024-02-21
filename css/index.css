@@ -1,5 +1,4 @@
 @import url('https://fonts.google.com/specimen/Alata?family=Alata:400');
-@import url('https://fonts.google.com/specimen/Josefin+Sans:300');
 
 body{
     Font-size: 15px;
@@ -87,5 +86,16 @@ body{
 .flex-container img {
     margin-bottom: 10px;
     flex-basis: 24%;
+    transition: width 2s, height 4s;
+}
+
+.flex-container img:hover{
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    left: 4px;
+    top: -8px;
+    opacity: 0.5;
+    transition: 0.3s ease;
 }
 
